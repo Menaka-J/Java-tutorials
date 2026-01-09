@@ -26,6 +26,7 @@ class bc_stringmethods {
         System.out.println(rep);
         System.out.println(isEmpty);
         System.out.println(isContains);
+        System.err.println(substr);
 
     }
 }
