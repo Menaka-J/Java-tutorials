@@ -16,7 +16,7 @@ class bc_formatstr {
         System.out.printf("%.2f\n", bignum); //[precision]
         System.out.printf("%b", istruw);
         System.out.println("\n");
-        
+
         // [width ] => no.of char to be written in o/p
         System.out.printf("name: %13s", name); //set min no.of chars as 13
     }
@@ -27,6 +27,5 @@ class bc_formatstr {
 printf() => method to control, format and display txt to console window
 
 options =>  % [flags] [precisions] [width] [conversion-char]
-
 
  */
