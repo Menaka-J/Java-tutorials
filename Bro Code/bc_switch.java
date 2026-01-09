@@ -14,6 +14,7 @@ class bc_switch {
             }
             case "saturday", "sunday" -> {
                 System.out.println("It's weekend😃");
+                break;
             }
             default -> {
                 System.out.println("Invalid day");
