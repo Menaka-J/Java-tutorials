@@ -28,6 +28,8 @@ class bc_filereader2 {
             }
         } catch (Exception e) {
             System.out.println("OOPS! Something went wrong");
+        } finally {
+            System.out.println("Program ended");
         }
 
     }
