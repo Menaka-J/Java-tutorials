@@ -11,7 +11,7 @@ public class gui {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(true); //resize window option
         frame.setSize(402,420); //window size
-        frame.setVisible(true);
+        frame.setVisible(true); //true => frame visible or not
 
     }
 
