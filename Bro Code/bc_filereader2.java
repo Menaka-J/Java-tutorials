@@ -22,8 +22,9 @@ class bc_filereader2 {
 
             content = fr.read(); //read ascii of char in file
 
-            while(content!=-1){
-                
+            while (content != -1) {
+                System.out.println(Integer.toString(content));
+                content = 
             }
         } catch (Exception e) {
         }
