@@ -12,7 +12,7 @@ class bc_filereader2 {
             content = fr.read(); //read ascii of char in file
 
             while (content != -1) {
-                System.out.println((char)content);
+                System.out.print((char)content);
                 content = fr.read();
             }
         } catch (Exception e) {
