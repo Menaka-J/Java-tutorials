@@ -27,7 +27,7 @@ class bc_filereader2 {
                 content = fr.read();
             }
         } catch (Exception e) {
-            
+            System.out.println("OOPS! Something went wrong");
         }
 
     }
