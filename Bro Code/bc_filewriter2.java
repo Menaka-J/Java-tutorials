@@ -2,7 +2,6 @@
 import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
-import java.util.Scanner;
 
 class bc_filewriter2 {
 
@@ -13,7 +12,7 @@ class bc_filewriter2 {
                         This is java
                         Java is fun""";
 
-        try (Scanner scan = new Scanner(System.in); FileWriter fw = new FileWriter(path); BufferedWriter bw = new BufferedWriter(fw)) {
+        try (FileWriter fw = new FileWriter(path);) {
             bw.write(content);
             System.out.println("Success");
         } catch (FileNotFoundException e) {
