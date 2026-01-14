@@ -9,7 +9,7 @@ public class gui {
 
         //close frame when click on 'x' else just hide it
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setResizable(true);
+        frame.setResizable(true); //resize window option
         frame.setSize(402,420);
         frame.setVisible(true);
 
