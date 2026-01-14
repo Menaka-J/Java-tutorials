@@ -24,9 +24,10 @@ class bc_filereader2 {
 
             while (content != -1) {
                 System.out.println(Integer.toString(content));
-                content = 
+                content = fr.read();
             }
         } catch (Exception e) {
+            
         }
 
     }
