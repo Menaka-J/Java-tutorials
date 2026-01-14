@@ -5,7 +5,7 @@ class bc_filereader2 {
 
     public static void main(String[] args) {
         String path = "C:\\Users\\Menaka\\OneDrive\\Desktop\\sample.txt";
-        String content;
+        int content;
 
         // try (FileReader fr = new FileReader(path); BufferedReader br = new BufferedReader(fr);) {
         //     content = br.readLine();
@@ -20,8 +20,11 @@ class bc_filereader2 {
         // }
         try (FileReader fr = new FileReader(path);) {
 
-            content = fr.read();
-            while()
+            content = fr.read(); //read ascii of char in file
+
+            while(content!=-1){
+                
+            }
         } catch (Exception e) {
         }
 
