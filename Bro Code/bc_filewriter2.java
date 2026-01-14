@@ -1,5 +1,4 @@
 
-import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 
@@ -13,7 +12,7 @@ class bc_filewriter2 {
                         Java is fun""";
 
         try (FileWriter fw = new FileWriter(path);) {
-            bw.write(content);
+            fw.write(content);
             System.out.println("Success");
         } catch (FileNotFoundException e) {
             System.out.println("File not found");
