@@ -1,5 +1,4 @@
 
-import java.io.BufferedReader;
 import java.io.FileReader;
 
 class bc_filereader2 {
@@ -8,16 +7,23 @@ class bc_filereader2 {
         String path = "C:\\Users\\Menaka\\OneDrive\\Desktop\\sample.txt";
         String content;
 
-        try (FileReader fr = new FileReader(path); BufferedReader br = new BufferedReader(fr);) {
-            content = br.readLine();
-            while (content != null) {
-                System.out.println(content);
-                content = br.readLine();
-            }
+        // try (FileReader fr = new FileReader(path); BufferedReader br = new BufferedReader(fr);) {
+        //     content = br.readLine();
+        //     while (content != null) {
+        //         System.out.println(content);
+        //         content = br.readLine();
+        //     }
+        // } catch (Exception e) {
+        //     System.out.println("OOPS! Something went wrong");
+        // } finally {
+        //     System.out.println("Program ended");
+        // }
+        try (FileReader fr = new FileReader(path);) {
+
+            content = fr.read();
+            while()
         } catch (Exception e) {
-            System.out.println("OOPS! Something went wrong");
-        } finally {
-            System.out.println("Program ended");
         }
+
     }
 }
