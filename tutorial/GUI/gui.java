@@ -5,7 +5,7 @@ public class gui {
 
         //JFrame create a window
         JFrame frame = new JFrame();
-        frame.setTitle("JFame");
+        frame.setTitle("JFame"); //set title
 
         //close frame when click on 'x' else just hide it
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
